@@ -13,16 +13,16 @@
     color: white;
 }
 .container h1{
-    color:brown;
+    color:red;
     text-align: center;
 }
 body{
     display: flex;
     height:100vh;
-     justify-content: center;
-     align-items: center;
-     background-image: url(tree.jpg);
-     background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-image: url(tree.jpg);
+    background-size: cover;
 
 }
 .container{
@@ -37,7 +37,7 @@ body{
 .form-title{
     font-size: 26px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
     padding-bottom:  6px;
     color:white;
     text-shadow: 2px 2px 2px black;
@@ -53,13 +53,17 @@ body{
 .acc h6{
     text-align: center;
     color:white;
-    margin:20px 20px;   
+    margin:20px 20px; 
+    cursor: pointer; 
 }
 .acc a{
     display: flex;
     justify-content: center;
-    color:black;
+    color:white;
     margin:10px 10px;
+}
+.acc a:hover{
+    color:green;
 }
 .user-input-box{
     display: block;
@@ -113,12 +117,12 @@ body{
         padding: 10px;
         border:none;
         border-radius: 3px;
-        color: rgb(209,209,209);
+        color: rgb(0,0,0);
         background:rgba (63,114,76,0.7);
     }
     .form-submit-btn input:hover{
         background:green;
-        color: rgb(255,255,255);
+        color: rgb(255,255,255;
     }
    
 
