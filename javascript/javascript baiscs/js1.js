@@ -65,5 +65,35 @@ console.log(d);
 
   }
   randomChar()
+
+  let item={
+    name:'phone',
+    price:30000,
+    quantity:1
+
+  }
+  console.log(item);
+  let item2=new Object();
+
+  item2.name="charger";
+  item2.price="500";
+  item2.quantity=1;
+
+  console.log(item2);
+  console.log(item2.name);
+  console.log(item2.price);
+  console.log(item2.quantity);
+  //dot notation
+  item.price=40000;
+  console.log(item.price);
+  item2.returnable=true;
+  console.log(item2);
+
+  //square bracket notation
+  console.log(item2['name']);
+  console.log(item2['price']);
+
+
+
  
  

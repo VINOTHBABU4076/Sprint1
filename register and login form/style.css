@@ -110,7 +110,7 @@ body{
         margin-top: 40px;
     }
     .form-submit-btn input{
-        display: block;
+        /* display: block; */
         width: 100%;
         margin-top: 10px;
         font-size: 20px;
@@ -122,7 +122,7 @@ body{
     }
     .form-submit-btn input:hover{
         background:green;
-        color: rgb(255,255,255;
+        color: rgb(255,255,255);
     }
    
 
