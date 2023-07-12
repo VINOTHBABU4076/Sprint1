@@ -21,7 +21,11 @@ function validateInputs(){
     const cpasswordVal = cpassword.value.trim();
     let success = true
 
-    
+    if(usernameVal===''){
+        success= false;
+        setError(username,'username is required')
+    }
+
     if(emailVal===''){
         success = false;
         setError(email,'Email is required')
@@ -45,11 +49,21 @@ function validateInputs(){
     else{
         setSuccess(password)
     }
+    if(cpasswordVal!= password){
+        success= false;
+        setError(cpassword,'password must be equal to above password')
+    }
+    else{
+        setSuccess(cpassword);
+
+        }
+    
+    return success;
 
    
 
 }
-//element - password, msg- pwd is reqd
+
 function setError(element,message){
     const inputGroup = element.parentElement;
     const errorElement = inputGroup.querySelector('.error')
